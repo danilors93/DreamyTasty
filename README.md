@@ -7,3 +7,6 @@ This is an ASP.NET project that utilizes the Bootstrap framework to provide a mo
 Full Stack Application: The project is a full stack application, covering both the frontend and the backend.
 CRUD SQL: It uses an SQL database to perform CRUD (Create, Read, Update, Delete) operations on the data.
 User and Admin System: Implements an authentication system with different roles for users and administrators.
+
+# See it running
+https://www.youtube.com/watch?v=4xGvYtUy0i8
