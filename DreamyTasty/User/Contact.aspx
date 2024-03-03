@@ -41,7 +41,7 @@
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
                             </div>
                             <div>
-                                <asp:TextBox ID="txtMessage" runat="server" CssClass="form-control" placeholder="Enter your Message"></asp:TextBox>
+                                <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine" CssClass="form-control" placeholder="Enter your Message"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Can't send blank message" ControlToValidate="txtMessage"
                                  ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
                             </div>

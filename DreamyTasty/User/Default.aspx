@@ -109,13 +109,12 @@
               </h2>
                         </div>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+                                          Welcome to Dreamy Tasty, where culinary dreams come to life! Nestled in the heart of our bustling city, Dreamy Tasty is more than just a restaurant; it's a gastronomic journey that tantalizes your taste buds and ignites your imagination.
+
+At Dreamy Tasty, we believe in crafting unforgettable dining experiences that leave a lasting impression. Our talented chefs, inspired by flavors from around the globe...
            
                         </p>
-                        <a href="">Read More
+                        <a href="About.aspx">Read More
             </a>
                     </div>
                 </div>
@@ -127,7 +126,7 @@
 
     <!-- client section -->
 
-    <section class="client_section layout_padding-bottom pt-5">
+    <%--<section class="client_section layout_padding-bottom pt-5">
         <div class="container">
             <div class="heading_container heading_center psudo_white_primary mb_45">
                 <h2>What Says Our Customers
@@ -176,7 +175,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <!-- end client section -->
 

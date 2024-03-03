@@ -73,8 +73,8 @@
                         <div>
                             <asp:RequiredFieldValidator ID="rfvMobile" runat="server" ErrorMessage="Phone Number is Required"
                                 ControlToValidate="txtMobile" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:RegularExpressionValidator ID="revMobile" runat="server" ErrorMessage="Phone number must have 10 digits max"
-                                ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="^[0-9]{10}$"
+                            <asp:RegularExpressionValidator ID="revMobile" runat="server" ErrorMessage="Invalid Format"
+                                ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="^[0-9]{0,11}$"
                                 ControlToValidate="txtMobile"></asp:RegularExpressionValidator>
                             <asp:TextBox ID="txtMobile" runat="server" CssClass="form-control" placeholder="Enter Phone Number"
                                 ToolTip="Phone Number" TextMode="Number"></asp:TextBox>
@@ -95,8 +95,8 @@
                         <div>
                             <asp:RequiredFieldValidator ID="rfvPostCode" runat="server" ErrorMessage="Post/Zip Code is Required" ControlToValidate="txtPostCode"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:RegularExpressionValidator ID="revPostCode" runat="server" ErrorMessage="Post/Zip Code must have 6 digits"
-                                ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="^[0-9]{6}$"
+                            <asp:RegularExpressionValidator ID="revPostCode" runat="server" ErrorMessage="Post/Zip Code Invalid"
+                                ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="^[0-9]{0,10}$"
                                 ControlToValidate="txtPostCode"></asp:RegularExpressionValidator>
                             <asp:TextBox ID="txtPostCode" runat="server" CssClass="form-control" placeholder="Enter Post/Zip Code"
                                 ToolTip="Post/Zip Code" TextMode="Number"></asp:TextBox>

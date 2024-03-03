@@ -30,6 +30,7 @@ namespace DreamyTasty.User
                 {
                     string userId = Session["userId"].ToString();
                     string address = GetAddressFromUserCrud(userId);
+                    txtAddress.Text = address;
                     txtCODAddress.Text = address;
                 }
             }
