@@ -2,3 +2,4 @@
 *.ASP.NET linguist-detectable=true
 *.SQL linguist-detectable=true
 *.Javascript linguist-detectable=true
+*.CSS linguist-detectable=false
