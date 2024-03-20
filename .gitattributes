@@ -1,5 +1,6 @@
-*.csharp linguist-detectable=true
-*.ASP.NET linguist-detectable=true
-*.SQL linguist-detectable=true
-*.Javascript linguist-detectable=true
-*.CSS linguist-detectable=false
+*.cs linguist-detectable=true
+*.aspx linguist-detectable=true
+*.sql linguist-detectable=true
+*.js linguist-detectable=true
+*.cshtml linguist-detectable=true
+*.css linguist-detectable=false
