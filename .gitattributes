@@ -1,6 +1,6 @@
 *.cs linguist-detectable=true
 *.aspx linguist-detectable=true
 *.sql linguist-detectable=true
-*.js linguist-detectable=true
-*.cshtml linguist-detectable=true
+*.js linguist-detectable=false
+*.cshtml linguist-detectable=false
 *.css linguist-detectable=false
